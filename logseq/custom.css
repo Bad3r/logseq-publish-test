@@ -2139,17 +2139,3 @@ html[data-theme="dark"] .tl-type-tag[data-active="true"] {
 .panel-content {
     background: var(--ls-primary-background-color);
 }
-
-/* publish */
-
-/* hide topback elms */
-
-html[data-theme="light"] .cp__header a,
-html[data-theme="light"] a.right-sidebar-button,
-html[data-theme="dark"] .cp__header a,
-html[data-theme="dark"] a.right-sidebar-button,
-.cp__header a,
-.cp__header button,
-.cp__right-sidebar-topbar button {
-    color: var(--ls-primary-background-color) !important;
-}

@@ -1,0 +1,12 @@
+- TODO Pages for common dev tools
+	- vscode
+	- vim
+		- flash cards for vim shortcuts
+	- terminal emulator (kitty)
+	- Espranso
+	- cli tools
+		- jq, etc..
+- TODO pages for programming languages
+	- python
+	- html, css, js, ts
+	- bash

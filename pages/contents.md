@@ -1,0 +1,1 @@
+- [[How to take notes as a developer]]

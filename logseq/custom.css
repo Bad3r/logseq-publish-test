@@ -2151,5 +2151,5 @@ html[data-theme="dark"] a.right-sidebar-button,
 .cp__header a,
 .cp__header button,
 .cp__right-sidebar-topbar button {
-    color: var(--ls-primary-background-color);
+    color: var(--ls-primary-background-color) !important;
 }

@@ -1,0 +1,21 @@
+name: Manual Build
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Logseq branch/tag"
+        default: "master"
+        required: true
+        type: string
+      publish_tag:
+        description: "Tag of ghcr.io/pengx17/logseq-publish"
+        required: false
+        type: string
+
+jobs:
+  call-build-docker:
+    uses: ./.github/workflows/build-docker.yml
+    with:
+      tag: ${{ github.event.inputs.tag }}
+      publish_tag: ${{ github.event.inputs.publish_tag || github.event.inputs.tag }}

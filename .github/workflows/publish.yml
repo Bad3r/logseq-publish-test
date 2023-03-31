@@ -27,6 +27,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: beta # The folder the action should deploy.
+          folder: www # The folder the action should deploy.
           clean: true
           single-commit: true

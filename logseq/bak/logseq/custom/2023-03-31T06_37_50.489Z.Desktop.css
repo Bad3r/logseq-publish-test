@@ -1,0 +1,6 @@
+/* Based on Dev theme by @pengx17 */
+@import url("https://cdn.jsdelivr.net/gh/bad3r/logseq-nord-theme@latest/custom.min.css");
+
+.cp__header, .cp__right-sidebar-topbar {
+    display: none;
+}

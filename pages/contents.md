@@ -1,2 +1,3 @@
 - [[How to take notes as a developer]]
+- [[VPN Check List]]
 - [[Decision Making]]

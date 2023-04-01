@@ -15,3 +15,7 @@ a.right-sidebar-button,
     color: var(--ls-primary-background-color) !important;
     display: block !important;
 }
+
+.is_mobile h1.title {
+    margin-top: 16px;
+}

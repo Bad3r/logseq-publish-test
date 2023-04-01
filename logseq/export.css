@@ -19,3 +19,8 @@ a.right-sidebar-button,
 .is_mobile h1.title {
     margin-top: 16px;
 }
+
+/* hide page references */
+.references {
+    display: none;
+}

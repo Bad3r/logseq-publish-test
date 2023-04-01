@@ -344,7 +344,7 @@
  :file/name-format :triple-lowbar
  :feature/enable-whiteboards? true
  :publishing/all-pages-public? true
- :editor/preferred-pasting-file? false
+ :editor/preferred-pasting-file? true
 
  ;; specify the format of the filename for journal files
  ;; :journal/file-name-format "yyyy_MM_dd"
